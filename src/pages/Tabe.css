@@ -1,0 +1,25 @@
+Table tr,th,td{
+    border:2px solid blue;
+    border-collapse: collapse;   
+    color:  rgb(1, 35, 61);;
+   }
+   Table{
+       position: relative;
+       left:10px;
+       right: 10px;
+   }
+   .main_ta{
+       width:60%;
+       height:350px;
+       border: 2px solid black;
+       overflow: auto;
+       margin: 0 auto 0 auto;
+       padding-left: 20px;
+       padding-right: 20px;
+       position: relative;
+       background-color: #D3d3d3;
+       top:50%;
+       color:blue;
+       transform: translate(0%,30%);
+       text-align: center;
+   }

@@ -1,0 +1,23 @@
+nav{
+    width: 50%;
+    height: 70px;
+    overflow: hidden;
+    background-color: rgb(1, 35, 61);
+    position: relative;
+    margin: 0 auto;
+    top:50%;
+    transform: translate(0%,50%);
+    text-align: center;
+    
+}
+ul{
+    list-style-type: none;
+    color:white;
+}
+li{
+    display: inline-block;
+     position: relative;
+     margin-left: 25px;
+     left:-30px;
+    font-size: 25px;
+}

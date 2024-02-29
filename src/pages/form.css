@@ -1,0 +1,47 @@
+table, tr,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+.main{
+    width:40%;
+    height:350px;
+    border: 2px solid black;
+    overflow: auto;
+    margin: 0 auto 0 auto;
+    position: relative;
+    background-color: #D3d3d3;
+    /* top:50%; */
+    transform: translate(0%,30%);
+    text-align: center;
+}
+.main h1{
+    color:blue;
+}
+.main label{
+    color:rgb(121, 121, 251);
+    font-size: 20px;
+}
+.input{
+    width:200px;
+    height: 20px;
+    display: inline-block;
+}
+/* .main input[type="number"]{
+    width:200px;
+    height: 20px;
+} */
+/* .main input[type="date"]{
+    width:200px;
+    height: 20px;
+} */
+.main button{
+    width:100px;
+    height: 25px;
+    background-color: rgb(1, 35, 61);
+    border: 2px solid white;
+    color:white
+}
+Link{
+    text-decoration: none;
+    color:white;
+}

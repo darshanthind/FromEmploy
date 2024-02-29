@@ -1,0 +1,42 @@
+.main{
+    width:50%;
+    height:350px;
+    border: 2px solid black;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    position: relative;
+    background-color: #D3d3d3;
+    /* top:50%; */
+    transform: translate(0%,30%);
+    text-align: center;
+}
+.inp{
+    position: relative;
+    top:50px;
+}.main{
+    width:50%;
+    height:350px;
+    border: 2px solid black;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    position: relative;
+    background-color: #D3d3d3;
+    /* top:50%; */
+    transform: translate(0%,30%);
+    text-align: center;
+}
+.inp{
+    position: relative;
+    top:50px;
+}
+
+.texts{
+    width:200px;
+    height: 20px;
+    display: inline-block;
+}
+.button{
+    width:100px;
+    height:100px;
+
+}
