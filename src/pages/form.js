@@ -26,9 +26,11 @@ function Inputs() {
   }
   useEffect(() => {
     let g = JSON.parse(localStorage.getItem("datas"));;
-    if (g.length > 0) {
-      for (let i = 0; i < names.length; i++) {
-        g.push(names[i]);
+    if (g !== null) {
+      if (g.length > 0) {
+        for (let i = 0; i < names.length; i++) {
+          g.push(names[i]);
+        }
       }
     }
     if (g !== null) {
