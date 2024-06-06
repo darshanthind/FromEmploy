@@ -31,7 +31,7 @@ function Inputs() {
         g.push(names[i]);
       }
     }
-    if (g.length <= 0) {
+    if (g !== null && g.length <= 0) {
       localStorage.setItem("datas", JSON.stringify(names));
     } else {
       localStorage.setItem("datas", JSON.stringify(g));
