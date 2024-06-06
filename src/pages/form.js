@@ -21,15 +21,17 @@ function Inputs() {
       // settable(true);
       setdata((p) => [...p, em_name]);
     }
-    alert("Sccessfuly enter ")
+    alert("Sccessfuly enter ");
+    setfield({});
   }
   useEffect(() => {
     let g = JSON.parse(localStorage.getItem("datas"));;
-
-    for (let i = 0; i < names.length; i++) {
-      g.push(names[i]);
+    if (g.length > 0) {
+      for (let i = 0; i < names.length; i++) {
+        g.push(names[i]);
+      }
     }
-    if (g != null && g.length <= 0) {
+    if (g.length <= 0) {
       localStorage.setItem("datas", JSON.stringify(names));
     } else {
       localStorage.setItem("datas", JSON.stringify(g));
@@ -39,7 +41,6 @@ function Inputs() {
     setfield({});
   }
 
-  //   console.log(names.length);
   return (
     <>
 
