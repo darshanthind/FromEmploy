@@ -33,13 +33,13 @@ function Inputs() {
         }
       }
     }
-    if (g !== null) {
-      if (g.length <= 0) {
-        localStorage.setItem("datas", JSON.stringify(names));
-      } else {
-        localStorage.setItem("datas", JSON.stringify(g));
-      }
+
+    if (g == null) {
+      localStorage.setItem("datas", JSON.stringify(names));
+    } else {
+      localStorage.setItem("datas", JSON.stringify(g));
     }
+
   }, [names]);
   const clear = () => {
     setfield({});
